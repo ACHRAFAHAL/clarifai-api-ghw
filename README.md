@@ -1,21 +1,38 @@
-# [GHW API Week] Your first API request for image classification 🌕
-Make your first API request to classify images using AI. Learn how to send an image, interpret the response, and integrate image recognition into your projects.
+# 🤖 Multi-Model AI Chat
+
+A Streamlit web application that allows users to interact with and compare responses from different AI models including ChatGPT, DeepSeek, and Gemini through the Clarifai API.
 
 ## Features
-- ✅ Some context on computer vision
-- ✅ What is an API
-- ✅ How to get started with moondream
-- ✅ Build our moondream wrapper
-- ✅ Deploy our Streamlit dashboard to use our API
 
---Coming in next stream
-## Run Streamlit
-`streamlit run name_of_script.py`
+- 💬 Chat with multiple AI models
+- 🔄 Compare responses across different models
+- 🌡️ Adjustable temperature/creativity settings
+- 🚀 Simple and intuitive interface
 
-## Materials
-- [Moondream API](https://moondream.ai/) 
-- [Slides](https://docs.google.com/presentation/d/1jdXnE098119qavx--PhtRGfRy6wHkMg9nj6ZylNjhZQ/edit?usp=sharing)
-- [YouTube Recording of Live Session PT 1](pending) pending
-- [YouTube Recording of Live Session PT 2](pending) pending
+## Technologies Used
 
-<img width="785" alt="image" src="https://github.com/user-attachments/assets/9f86c1b4-0f33-460c-a570-f88d1976a438" />
+- Python
+- Streamlit
+- Clarifai API
+- OpenAI API Client
+
+
+## Usage
+
+1. Enter your question in the text area
+2. Select an AI model (ChatGPT, DeepSeek, or Gemini)
+3. Adjust the creativity level using the temperature slider
+4. Click "Get Response" to receive the AI's answer
+
+## Project Structure
+
+- `app.py`: Main Streamlit application
+- `Clarifai_lib.py`: Helper class for Clarifai API integration
+
+## Contributing
+
+Feel free to fork the project and submit pull requests for any improvements.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file 
