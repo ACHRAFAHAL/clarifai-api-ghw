@@ -1,6 +1,7 @@
 # 🤖 Multi-Model AI Chat
 
 A Streamlit web application that allows users to interact with and compare responses from different AI models including ChatGPT, DeepSeek, and Gemini through the Clarifai API.
+GO CHECK IT : https://multi-model.streamlit.app/
 
 ## Features
 
